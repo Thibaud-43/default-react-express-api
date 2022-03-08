@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Input from "../components/Input";
+import ResponsiveAppBar from "../components/AppBar";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Input></Input>
+        <ResponsiveAppBar></ResponsiveAppBar>
       </main>
     </div>
   );

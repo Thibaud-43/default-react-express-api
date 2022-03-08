@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/material": "^5.5.0",
     "@types/react-redux": "^7.1.23",
     "next": "12.1.0",
     "next-redux-wrapper": "^7.0.5",
